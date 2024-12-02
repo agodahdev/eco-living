@@ -8,21 +8,43 @@
 </head>
 <body>
 
+    <header>
+        <nav class="navbar">
+         <div class="container">
+
+            <h1 class="logo">Eco-Living Tips</h1>
+
+            <button class="hamburger" aria-label="Toggle navigation">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </button>
+                <ul class="nav-link">
+
+                    <li><a href="#home"></a>Home</li>
+                    <li><a href="#categories"></a>Categories</li>
+                    <li><a href="#about"></a>About</li>
+                    <li><a href="#contact"></a>Contact</li>
+                </ul>
+         </div>
+        </nav>
+    </header>
+
+
+
     <main>
     <nav></nav>
 
     <!-- Home Section-->
-
     <section id="home" class="home">
-     
      <div class="container">
-    <h2>Welcome to Eco-Living Tips</h2>
-
+        <h2>Welcome to Eco-Living Tips</h2>
         <p>Your guide to practical and sustainable living. Explore ways to make a postive impact on the planet!</p>
-    
-    </div>
+        <a href="#categories" class="btn">Explore Tips</a>
+        </div>
     </section>
-
 
     <!-- Catagories Section-->
     <section id="catagories" class="catagories">
@@ -67,6 +89,19 @@
     <section id="contact" class="contact">
         <div>
         <h2>Contact Us</h2>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+  
+            <button type="submit" class="btn">Submit</button>
+          </form>
         </div>
     </section>
     </main>
