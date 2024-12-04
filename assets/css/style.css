@@ -64,3 +64,71 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.home .btn:hover {
+    background: #2c7a7b;
+
+}
+
+/*Categories Styles*/
+.categories {
+    background: #f7fafc;
+}
+
+.category0-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.category {
+    background: white;
+    border: 1px solid #e2e8f0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.category:hover {
+    background: #edf2f7;
+}
+
+/* Contact Section */
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form lable {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #2c7a7b;
+}
+
+/* 404 page*/
+.not-found {
+    text-align: center;
+    padding: 2rem;
+}
+
+.not-found .btn:hover {
+ background: #38b2ac;
+}
+
+/* Footer Styles*/
+footer {
+    background: #2c7a7b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
